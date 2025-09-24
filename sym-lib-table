@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GT-USB-7004")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_GT-USB-7004/KiCADv6/2025-09-24_07-52-28.kicad_sym")(options "")(descr ""))
+  (lib (name "VBUS05L1-DD1-G-08")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_VBUS05L1-DD1-G-08/KiCADv6/2025-09-24_07-59-37.kicad_sym")(options "")(descr ""))
+)

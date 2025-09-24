@@ -609,6 +609,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "5b969f6e-a36e-432b-8f00-b2d6a515a877",
+      "Root"
+    ],
+    [
+      "36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d",
+      "ESP32"
+    ],
+    [
+      "9db73a32-37a4-4249-8656-c1ba9b3afe01",
+      "Lora_Module"
+    ],
+    [
+      "86749ea3-b799-4cf0-94d1-46de6ccb32b0",
+      "GPS_Module"
+    ],
+    [
+      "c7197dae-6cdc-4538-9538-27053b29fcd0",
+      "Power"
+    ]
+  ],
   "text_variables": {}
 }
