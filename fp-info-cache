@@ -1,4 +1,4 @@
-26641645178455277
+26643403881826686
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BQ25798RQMR
+RQM0029A-MFG
+
+BQ25798RQMR 
+0
+29
+29
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -62425,6 +62432,13 @@ GDT 3R-6
 0
 3
 3
+GT-USB-7004
+CONN12_B-7004_GSW
+
+GT-USB-7004 
+0
+20
+20
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -105468,28 +105482,21 @@ igbt diode module
 0
 25
 25
-USB-C-GT-7004
-CONN12_B-7004_GSW
-
-GT-USB-7004 
-0
-20
-20
-VBUS05L1
+VBUS05L1-DD1-G-08
 DIO_LLP1006-2M_VIS
 
 VBUS05L1-DD1-G-08 
 0
 2
 2
-VBUS05L1
+VBUS05L1-DD1-G-08
 DIO_LLP1006-2M_VIS-L
 
 VBUS05L1-DD1-G-08 
 0
 2
 2
-VBUS05L1
+VBUS05L1-DD1-G-08
 DIO_LLP1006-2M_VIS-M
 
 VBUS05L1-DD1-G-08 

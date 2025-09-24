@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "GT-USB-7004")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_GT-USB-7004/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "VBUS05L1-DD1-G-08")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_VBUS05L1-DD1-G-08/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Project library")(type "KiCad")(uri "${KIPRJMOD}/Project library")(options "")(descr ""))
+  (lib (name "BQ25798RQMR")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_BQ25798RQMR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
