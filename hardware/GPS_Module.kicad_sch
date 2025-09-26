@@ -456,6 +456,72 @@
 			(embedded_fonts no)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 27.94 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b7f9a01-21cb-4354-b784-2da0beffb654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8424 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 128.27 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9698b977-5595-45a5-aa99-e0caff2fc5c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.7628 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 127 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da94a169-d26e-4825-94bf-b8339148c79d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.6646 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "RF_GPS:SAM-M8Q")
 		(at 104.14 71.12 0)

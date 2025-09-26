@@ -1122,6 +1122,28 @@
 		)
 		(uuid "ba934d13-bb2f-4211-865a-5020d9652eaf")
 	)
+	(global_label "3.3V"
+		(shape output)
+		(at 223.52 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2227f72c-3ff6-4f82-831d-782e43e7afdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.6176 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 27.94 30.48 180)
@@ -1135,6 +1157,50 @@
 		(uuid "5cce9f0c-1bcb-419b-9ba7-3ea0d774ca19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.0562 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 68.58 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5100ac3-40bb-45de-b8e4-b78b3163349c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.0872 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 69.85 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7510602-a9ee-4e5d-9634-e020b30cd36b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1854 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
