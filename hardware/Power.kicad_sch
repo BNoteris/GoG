@@ -9380,7 +9380,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0"
-					(reference "#PWR07")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
