@@ -1595,7 +1595,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-C3-WROOM-02U"
+		(symbol "RF_Module:ESP32-C3-WROOM-02"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1607,16 +1607,16 @@
 					)
 				)
 			)
-			(property "Value" "ESP32-C3-WROOM-02U"
-				(at 12.7 21.336 0)
+			(property "Value" "ESP32-C3-WROOM-02"
+				(at 12.192 21.336 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-C3-WROOM-02U"
-				(at 0 -0.635 0)
+			(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+				(at 0 0.635 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1625,7 +1625,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
-				(at 0 -0.635 0)
+				(at 0 0.635 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 				)
 			)
 			(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
-				(at 0 -0.635 0)
+				(at 0 0.635 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1651,7 +1651,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "ESP32?C3*WROOM?02U*"
+			(property "ki_fp_filters" "ESP32?C3*WROOM?02*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1660,7 +1660,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-C3-WROOM-02U_1_1"
+			(symbol "ESP32-C3-WROOM-02_1_1"
 				(rectangle
 					(start -12.7 20.32)
 					(end 12.7 -20.32)
@@ -3534,127 +3534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-C3-WROOM-02U")
-		(at 213.36 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03798cc7-850a-42e4-91ff-3bee423777ce")
-		(property "Reference" "U1"
-			(at 215.5033 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-C3-WROOM-02U"
-			(at 215.5033 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02U"
-			(at 213.36 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
-			(at 213.36 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
-			(at 213.36 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "76fae88f-7cc8-4aec-8855-2aebf88ba2b4")
-		)
-		(pin "2"
-			(uuid "fc26c2f0-eb33-4c00-b090-0f6c70d058d8")
-		)
-		(pin "18"
-			(uuid "de710071-930f-48c5-aabb-357ceb2e20bb")
-		)
-		(pin "17"
-			(uuid "72f03849-2c82-43bb-92d9-21d67f8eb564")
-		)
-		(pin "5"
-			(uuid "e57671a0-7ee8-4588-9b71-76bf3bd1662c")
-		)
-		(pin "4"
-			(uuid "42c4c33f-e139-4614-8c26-e5c4eb40c61f")
-		)
-		(pin "10"
-			(uuid "32b78bb0-8475-4558-b97f-ca80bc7a0e04")
-		)
-		(pin "8"
-			(uuid "17bdd6b2-1ecf-42ed-af84-842204485870")
-		)
-		(pin "15"
-			(uuid "857f4a20-0ffa-481b-850b-25ae9b828779")
-		)
-		(pin "7"
-			(uuid "87b0b722-f85f-48ef-a4bf-57680240753b")
-		)
-		(pin "16"
-			(uuid "cf4d37a8-63ac-4303-bcfa-708692f0cfb4")
-		)
-		(pin "6"
-			(uuid "9eb164a3-036e-414c-a9af-6ed0cdd3489e")
-		)
-		(pin "14"
-			(uuid "67d569a9-92c0-4c15-ad57-0d82a2098598")
-		)
-		(pin "1"
-			(uuid "f6fd0143-c769-419d-b5dc-cda9de4493cf")
-		)
-		(pin "13"
-			(uuid "d75ed43d-eb61-43bf-99e1-ba55d33ede3f")
-		)
-		(pin "19"
-			(uuid "05bcd2fe-4e2a-4171-bdfc-6d0bf4d120d2")
-		)
-		(pin "11"
-			(uuid "095930db-d091-4cb4-80ab-43bc93c07ec7")
-		)
-		(pin "9"
-			(uuid "e88fcc51-5de2-4a82-ae42-f10cafd59deb")
-		)
-		(pin "12"
-			(uuid "d043a4e0-7a5b-44fb-ab6e-ebee41ca292c")
-		)
-		(instances
-			(project ""
-				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 31.75 55.88 0)
 		(unit 1)
@@ -3832,6 +3711,127 @@
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Module:ESP32-C3-WROOM-02")
+		(at 213.36 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7af52e-da31-4dee-988d-21772bdf18c3")
+		(property "Reference" "U2"
+			(at 215.5033 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-C3-WROOM-02"
+			(at 215.5033 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+			(at 213.36 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
+			(at 213.36 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
+			(at 213.36 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "cddbb2f1-2c7f-42b9-a0c6-fbb9e20a859f")
+		)
+		(pin "4"
+			(uuid "6bb8d22e-2b49-4d5f-b0ba-e2f33d84cf8c")
+		)
+		(pin "16"
+			(uuid "b043df3c-e903-4345-ab08-1eae1e36c436")
+		)
+		(pin "2"
+			(uuid "6ddf6228-2690-4b30-a3a5-5ad7d4fe5b01")
+		)
+		(pin "18"
+			(uuid "a23a1f09-0372-4b59-84eb-68ea71ba5640")
+		)
+		(pin "15"
+			(uuid "8166cd29-3f11-4178-8c66-5936b1faf4fd")
+		)
+		(pin "3"
+			(uuid "b58d0487-7b76-421b-8aae-9a39ce662231")
+		)
+		(pin "19"
+			(uuid "7c5f30a2-be97-48cd-bc61-a56cc1a3d85f")
+		)
+		(pin "13"
+			(uuid "3afc2ca5-b61e-4e5b-9e76-084de3ae23f6")
+		)
+		(pin "14"
+			(uuid "0c18d8bc-5de3-498f-b2f2-033076d06827")
+		)
+		(pin "11"
+			(uuid "6e2ea455-781e-47f3-890b-a8de1735557f")
+		)
+		(pin "1"
+			(uuid "0e06eeac-584f-4b68-b099-da1c64674338")
+		)
+		(pin "10"
+			(uuid "5817aeff-476c-48e8-b014-361968f2b024")
+		)
+		(pin "6"
+			(uuid "7970f62b-5304-45f5-aae4-535bf989ccf5")
+		)
+		(pin "9"
+			(uuid "01e5f664-e879-4722-bdd5-63879fca86a7")
+		)
+		(pin "8"
+			(uuid "4efeee19-b7d5-47af-a50e-8cbe9a8f74a1")
+		)
+		(pin "5"
+			(uuid "c108fea3-889f-4332-a22e-e923017269f3")
+		)
+		(pin "12"
+			(uuid "5c694a1c-4a00-4e2e-b8de-3fc00af45c6e")
+		)
+		(pin "7"
+			(uuid "25192ef2-9248-48f7-aaf0-a2719e7605dc")
+		)
+		(instances
+			(project ""
+				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
+					(reference "U2")
 					(unit 1)
 				)
 			)
