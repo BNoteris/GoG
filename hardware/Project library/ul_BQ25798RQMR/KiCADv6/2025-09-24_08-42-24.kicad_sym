@@ -454,7 +454,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -6.35 180)
+				(at 36.83 -12.7 180)
 				(length 5.08)
 				(name "BTST1"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -10.16 180)
+				(at 36.83 -16.51 180)
 				(length 5.08)
 				(name "SW1"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -13.97 180)
+				(at 36.83 -20.32 180)
 				(length 5.08)
 				(name "REGN"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -17.78 180)
+				(at 36.83 -24.13 180)
 				(length 5.08)
 				(name "SW2"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -21.59 180)
+				(at 36.83 -27.94 180)
 				(length 5.08)
 				(name "BTST2"
 					(effects
@@ -544,7 +544,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -30.48 180)
+				(at 36.83 -33.02 180)
 				(length 5.08)
 				(name "SYS"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -35.56 180)
+				(at 36.83 -41.91 180)
 				(length 5.08)
 				(name "BAT"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -38.1 180)
+				(at 36.83 -44.45 180)
 				(length 5.08)
 				(name "BAT"
 					(effects
@@ -590,24 +590,6 @@
 					)
 				)
 				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 36.83 -43.18 180)
-				(length 5.08)
-				(name "SDRV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -634,7 +616,25 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -54.61 180)
+				(at 36.83 -53.34 180)
+				(length 5.08)
+				(name "SDRV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 36.83 -58.42 180)
 				(length 5.08)
 				(name "PROG"
 					(effects
