@@ -454,7 +454,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -3.81 180)
+				(at 36.83 -5.08 180)
 				(length 5.08)
 				(name "BTST1"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -24.13 180)
+				(at 36.83 -22.86 180)
 				(length 5.08)
 				(name "BTST2"
 					(effects
