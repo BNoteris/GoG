@@ -382,7 +382,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -50.8 0)
+				(at 0 -52.07 0)
 				(length 5.08)
 				(name "TS"
 					(effects
