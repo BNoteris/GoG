@@ -557,57 +557,15 @@
         },
         {
           "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
           "show": true
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Package",
           "name": "Package",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
         },
         {
           "group_by": false,

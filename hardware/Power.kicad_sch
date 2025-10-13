@@ -811,6 +811,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -908,6 +1098,140 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4278,6 +4602,12 @@
 		(uuid "4bcbc6a4-16b7-459c-ae64-401ce7dd4e6e")
 	)
 	(junction
+		(at 53.34 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d9f9e20-8a14-4edf-88d2-371752faefc1")
+	)
+	(junction
 		(at 104.14 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4326,12 +4656,6 @@
 		(uuid "6707c356-6951-4d56-bf03-1ec83930947c")
 	)
 	(junction
-		(at 52.07 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a20a0e5-f042-4449-8ba0-92860bb78c18")
-	)
-	(junction
 		(at 144.78 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4350,7 +4674,7 @@
 		(uuid "6d5a824c-a68e-40e5-aae1-b192a59be61f")
 	)
 	(junction
-		(at 48.26 29.21)
+		(at 44.45 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d5fcd65-0719-4bef-a286-9d5c549a2a08")
@@ -4372,6 +4696,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73fad53b-16b3-45fc-be74-782895acfe1a")
+	)
+	(junction
+		(at 48.26 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78311419-5002-40e6-baef-d0a6d9fa2fc3")
 	)
 	(junction
 		(at 93.98 176.53)
@@ -4552,6 +4882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8331078-02be-4e57-8686-b4c8f173fec7")
+	)
+	(junction
+		(at 63.5 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da12b076-ca46-406f-ac54-052c143ab4cf")
 	)
 	(junction
 		(at 109.22 142.24)
@@ -4851,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 66.04 29.21)
+			(xy 62.23 29.21) (xy 63.5 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4921,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 27.94) (xy 52.07 29.21)
+			(xy 48.26 27.94) (xy 48.26 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5651,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 22.86) (xy 48.26 29.21)
+			(xy 44.45 22.86) (xy 44.45 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5738,6 +6074,16 @@
 			(type default)
 		)
 		(uuid "7f05f02a-9708-4214-be91-8eefa776d5af")
+	)
+	(wire
+		(pts
+			(xy 53.34 29.21) (xy 54.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800b21f8-a3d7-41e8-81e6-da3ff270ae62")
 	)
 	(wire
 		(pts
@@ -6121,6 +6467,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 24.13) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e06289d-a828-4e39-8098-cc265b5cb36f")
+	)
+	(wire
+		(pts
 			(xy 133.35 96.52) (xy 134.62 96.52)
 		)
 		(stroke
@@ -6128,16 +6484,6 @@
 			(type default)
 		)
 		(uuid "a10dbef9-a9dd-4348-9702-5285abdda7be")
-	)
-	(wire
-		(pts
-			(xy 52.07 29.21) (xy 55.88 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a172c696-5d2e-46a5-8e42-706d1b5d5088")
 	)
 	(wire
 		(pts
@@ -6261,7 +6607,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 29.21) (xy 52.07 29.21)
+			(xy 44.45 29.21) (xy 48.26 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6391,6 +6737,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 24.13) (xy 53.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1758bb2-a80e-4988-8b01-aba1bf115581")
+	)
+	(wire
+		(pts
 			(xy 193.04 41.91) (xy 198.12 41.91)
 		)
 		(stroke
@@ -6451,7 +6807,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 22.86) (xy 48.26 22.86)
+			(xy 43.18 22.86) (xy 44.45 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6531,7 +6887,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 29.21) (xy 48.26 29.21)
+			(xy 43.18 29.21) (xy 44.45 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6608,6 +6964,16 @@
 			(type default)
 		)
 		(uuid "d8173fc0-e2fd-4253-ad53-8dfa24f49f21")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 66.04 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ed4ff2-3ad5-4d13-9aa2-190c3713ff6b")
 	)
 	(wire
 		(pts
@@ -6768,6 +7134,16 @@
 			(type default)
 		)
 		(uuid "e97d8040-ecef-43c8-a8ae-570f84d3161d")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 53.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa9ab51-a7d7-4afd-b7e8-fa15d742fc9e")
 	)
 	(wire
 		(pts
@@ -7169,7 +7545,7 @@
 	)
 	(global_label "VSOL"
 		(shape input)
-		(at 46.99 22.86 180)
+		(at 43.18 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7179,7 +7555,7 @@
 		)
 		(uuid "c2bf2423-8710-4f5a-b194-864c2f97eb58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3481 22.86 0)
+			(at 35.5381 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,54 +7979,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d44f7f5d-6f4a-43e4-9993-16a18faaaf07")
 		)
@@ -7746,54 +8074,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7998,14 +8278,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "JLCPCB Part #" "C96899"
 			(at 83.82 139.7 90)
 			(effects
@@ -8015,30 +8287,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Package" "SMD, 4x4mm"
 			(at 83.82 142.24 0)
 			(effects
@@ -8046,22 +8294,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -8131,54 +8363,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8273,54 +8457,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8421,54 +8557,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dcc6bd49-f11f-46c8-b239-d47fb6a7c0d1")
 		)
@@ -8535,54 +8623,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8707,7 +8747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402FR-07100RL -55℃~+155℃ 100Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 204.47 92.71 0)
 			(effects
 				(font
@@ -8716,52 +8756,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C106232"
 			(at 204.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 204.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 204.47 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 204.47 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 204.47 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 204.47 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8859,54 +8869,6 @@
 					(color 0 132 132 1)
 				)
 				(justify left)
-			)
-		)
-		(property "Availability" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9101,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402FR-07100KL -55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 71.12 40.64 0)
 			(effects
 				(font
@@ -9110,52 +9072,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C60491"
 			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9255,54 +9187,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ea14f435-4219-45c7-bce0-9df529e1bf79")
 		)
@@ -9368,54 +9252,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9501,7 +9337,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 52.07 27.94 0)
+		(at 48.26 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9509,7 +9345,7 @@
 		(dnp no)
 		(uuid "22d6d563-0fda-404c-8e38-9a84500422ac")
 		(property "Reference" "#PWR020"
-			(at 52.07 31.75 0)
+			(at 48.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +9354,7 @@
 			)
 		)
 		(property "Value" "VSOL"
-			(at 52.07 24.13 0)
+			(at 48.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSOL\""
-			(at 52.07 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,54 +9451,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 237.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 237.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 237.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 237.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 237.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 237.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9896,54 +9684,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e71f5719-a7e7-4552-8a70-83eb0d24d053")
 		)
@@ -10173,54 +9913,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5d3688b6-37c4-4915-a07b-1296ca836767")
 		)
@@ -10238,7 +9930,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 31.75 0)
+		(at 43.18 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10246,7 +9938,7 @@
 		(dnp no)
 		(uuid "3376e384-20a7-4458-a900-ed3a150833ba")
 		(property "Reference" "#PWR034"
-			(at 46.99 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +9947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 34.29 0)
+			(at 39.37 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +9956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 31.75 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +9965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 31.75 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +9974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 31.75 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402FR-0710KL  -55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 124.46 74.93 0)
 			(effects
 				(font
@@ -10354,52 +10046,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C60490"
 			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10745,54 +10407,6 @@
 				(justify right)
 			)
 		)
-		(property "Availability" ""
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8408ca1b-eda1-4b30-b615-550d58769ce3")
 		)
@@ -10991,54 +10605,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8dc0eb31-c8bc-491d-b8de-85cc034e9217")
 		)
@@ -11172,54 +10738,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "D"
 			(uuid "86eecafb-e9ba-43f1-9e05-4eb7c3cc8f24")
 		)
@@ -11240,7 +10758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 29.21 270)
+		(at 58.42 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11248,7 +10766,7 @@
 		(dnp no)
 		(uuid "4ae5b6d0-ca14-4aa7-9946-3f316f883b14")
 		(property "Reference" "R22"
-			(at 59.69 26.67 90)
+			(at 58.42 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,15 +10774,15 @@
 			)
 		)
 		(property "Value" "0"
-			(at 59.69 31.75 90)
+			(at 58.42 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 59.69 27.432 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 58.42 27.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +10791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 29.21 0)
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,8 +10799,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt Resistor"
-			(at 59.69 29.21 0)
+		(property "Description" "FRM121WFR100TM 100mΩ 1W Current Sense Resistor ±1% ±50ppm/℃ 1206"
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,52 +10808,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 59.69 29.21 0)
+		(property "JLCPCB Part #" "C7467250"
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 59.69 29.21 0)
+		(property "Package" "1206"
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11404,54 +10892,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11615,54 +11055,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "01186532-e675-4822-bf5f-671445fa6043")
 		)
@@ -11721,7 +11113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402FR-07100KL -55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 113.03 111.76 0)
 			(effects
 				(font
@@ -11730,52 +11122,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C60491"
 			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 113.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 113.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 113.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 113.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11847,54 +11209,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1d9f9ec3-29e7-4f0f-bc9a-8c679a0014c6")
 		)
@@ -11958,54 +11272,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12100,54 +11366,6 @@
 					(color 0 132 132 1)
 				)
 				(justify left)
-			)
-		)
-		(property "Availability" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12283,54 +11501,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 128.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2a6af1f7-c63d-418b-87d4-5bc5bf460956")
 		)
@@ -12371,7 +11541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 219.71 137.16 0)
 			(effects
 				(font
@@ -12389,7 +11559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ZX-PZ2.54-1-4PZZ 1x4P 2.54mm Pin Header"
 			(at 219.71 137.16 0)
 			(effects
 				(font
@@ -12398,52 +11568,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C7501262"
 			(at 219.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "Plugin,P=2.54mm"
 			(at 219.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12520,54 +11660,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e56276bb-d5ad-4110-b2f6-13de22c4839e")
 		)
@@ -12634,54 +11726,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7d4be1ec-f84d-44ae-9953-d12ed3fac081")
 		)
@@ -12745,54 +11789,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13090,54 +12086,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "24e555b3-e1b3-463e-befb-57b0b93763aa")
 		)
@@ -13235,54 +12183,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f52a2f55-43a0-4894-80c4-70949867dcc8")
 		)
@@ -13378,54 +12278,6 @@
 					(color 0 132 132 1)
 				)
 				(justify left)
-			)
-		)
-		(property "Availability" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13561,54 +12413,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a56e5f47-d70b-4979-b97a-251bbd99c5fe")
 		)
@@ -13687,54 +12491,6 @@
 				(justify right)
 			)
 		)
-		(property "Availability" ""
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "03e845e3-4081-4566-9f77-f90e9dbedc00")
 		)
@@ -13801,54 +12557,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 133.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 133.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 133.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 133.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -14011,54 +12719,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "48397c8c-3dfd-4b11-92c3-177b20b4a635")
 		)
@@ -14156,54 +12816,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "75ac252e-5342-4386-8362-285582e0237d")
 		)
@@ -14272,54 +12884,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4e4ac575-2180-494b-a857-e8459131b5e4")
 		)
@@ -14375,7 +12939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402FR-0710KL  -55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -14384,52 +12948,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C60490"
 			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14542,7 +13076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 219.71 151.13 0)
 			(effects
 				(font
@@ -14560,7 +13094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ZX-PZ2.54-1-2PZZ 1x2P 2.54mm Pin Header"
 			(at 219.71 151.13 0)
 			(effects
 				(font
@@ -14569,52 +13103,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C7501260"
 			(at 219.71 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "Plugin,P=2.54mm"
 			(at 219.71 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 219.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 219.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 219.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 219.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14683,54 +13187,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "D"
@@ -14804,54 +13260,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "98ba4c44-426e-4f5c-86d1-af230de41d25")
 		)
@@ -14915,54 +13323,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -15040,54 +13400,6 @@
 					(color 0 132 132 1)
 				)
 				(justify right)
-			)
-		)
-		(property "Availability" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -15187,54 +13499,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "07ece8d1-de0f-4e06-889e-2b0cf8fa978d")
 		)
@@ -15293,7 +13557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402FR-07120KL -55℃~+155℃ 120kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -15302,52 +13566,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C93945"
 			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15447,54 +13681,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "894c0e49-de93-4915-b944-71dc0e05bad3")
 		)
@@ -15590,54 +13776,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -15737,54 +13875,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9d32aec4-f9d7-4f25-9568-186429982ad6")
 		)
@@ -15846,7 +13936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+85℃ 17uA 1~4 3.6V~24V 5A Charging IC I2C Lithium Battery Support QFN-29(4x4) Battery Management"
 			(at 146.05 43.18 0)
 			(effects
 				(font
@@ -15855,52 +13945,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 146.05 43.18 0)
+		(property "JLCPCB Part #" "C2876593"
+			(at 164.465 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "QFN-29(4x4)"
 			(at 146.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "10"
@@ -16052,54 +14112,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "D"
 			(uuid "3e6465a8-6c6f-4626-b944-4cd9405e3990")
 		)
@@ -16237,54 +14249,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "fbfc4ef3-3f44-4dd1-b99f-7339f57a744f")
 		)
@@ -16348,54 +14312,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -16478,8 +14394,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 41.91 29.21 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 38.1 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16488,15 +14404,15 @@
 		(dnp no)
 		(uuid "aecc45e8-e864-449c-a675-60abf3e71122")
 		(property "Reference" "J5"
-			(at 41.91 26.67 0)
+			(at 38.1 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 41.91 25.4 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16504,8 +14420,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 41.91 29.21 0)
+		(property "Footprint" "GoG_Library:TerminalBlock_WJ126V-5.0-2P_1x02_P5.00mm"
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +14430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 29.21 0)
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16522,8 +14438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 29.21 0)
+		(property "Description" "WJ126V-5.0-2P 1x2P P=5mm Screw Terminal Block"
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,52 +14447,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 41.91 29.21 0)
+		(property "JLCPCB Part #" "C8404"
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 41.91 29.21 0)
+		(property "Package" "Plugin,P=5mm"
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 41.91 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 41.91 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 41.91 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 41.91 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16646,54 +14532,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "D"
@@ -16835,54 +14673,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "feb8a130-e93e-4c55-8151-0f02af54e7f9")
 		)
@@ -16946,54 +14736,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -17128,54 +14870,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "30c3a013-ff27-45fb-976d-f0c9b780e311")
 		)
@@ -17270,54 +14964,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 102.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 102.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 102.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 102.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 102.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 102.87 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3b4b2089-055e-41b9-bd06-f0528fcd7388")
 		)
@@ -17376,7 +15022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E24"
+		(property "Description" "RC0402FR-075K1L -55℃~+155℃ 5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -17385,52 +15031,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C105872"
 			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17597,54 +15213,6 @@
 				(justify right)
 			)
 		)
-		(property "Availability" ""
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e38c9345-9281-46b1-a8c5-b7724113da6e")
 		)
@@ -17685,7 +15253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.92 61.468 90)
 			(effects
 				(font
@@ -17703,7 +15271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E24"
+		(property "Description" "RC0603FR-07300RL -55℃~+155℃ 100mW 300Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 121.92 59.69 0)
 			(effects
 				(font
@@ -17712,52 +15280,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C114617"
 			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0603"
 			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 121.92 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 121.92 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 121.92 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 121.92 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17826,54 +15364,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -17996,7 +15486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E24"
+		(property "Description" "RC0402FR-0730KL -55℃~+155℃ 30kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -18005,52 +15495,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C138008"
 			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18188,54 +15648,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a503c2fd-4eb9-43a3-9121-6bb169fce9a4")
 		)
@@ -18367,52 +15779,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C2071056"
 			(at 67.31 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "TSOT-23-6"
 			(at 67.31 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 67.31 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 67.31 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 67.31 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 67.31 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -18524,54 +15906,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6b1bbc12-9b21-4a99-8b70-eec9ca0e26c8")
 		)
@@ -18640,54 +15974,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7504d16c-d17b-4ac5-9159-23d70cde2db1")
 		)
@@ -18753,54 +16039,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "42e1fe0b-1afd-4e8f-9355-92658062ffe8")
 		)
@@ -18864,54 +16102,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "D"
@@ -18983,54 +16173,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 209.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 209.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 209.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 209.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 209.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 209.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -19192,54 +16334,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "56b07d35-6057-4245-8ed8-b77f41450145")
 		)
@@ -19298,7 +16392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12 1% - 2% TOL"
+		(property "Description" "RC0402FR-078K2L -55℃~+155℃ 50V 62.5mW 8.2kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -19316,52 +16410,22 @@
 				)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C137929"
 			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19567,54 +16631,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0f53e265-2003-48d8-9659-865a9df19863")
 		)
@@ -19707,54 +16723,6 @@
 					(color 0 132 132 1)
 				)
 				(justify left)
-			)
-		)
-		(property "Availability" ""
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -19854,54 +16822,6 @@
 				(justify right)
 			)
 		)
-		(property "Availability" ""
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "25919ec7-8119-4aea-a8f6-bfbaf07f40f5")
 		)
@@ -19999,54 +16919,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "522a2415-7ac2-42d8-b374-6af970b263f7")
 		)
@@ -20115,14 +16987,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 85.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "JLCPCB Part #" "C57269"
 			(at 85.09 173.99 90)
 			(effects
@@ -20132,30 +16996,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 85.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 85.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 85.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Package" "SMD, 4x4mm"
 			(at 85.09 176.53 0)
 			(effects
@@ -20163,22 +17003,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 85.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 85.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -20278,54 +17102,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "579e1c68-2232-4576-a4c6-80ec7a405ffb")
 		)
@@ -20423,54 +17199,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 96.52 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "afcb7eb5-8f2b-415f-b019-9805f6481487")
 		)
@@ -20537,54 +17265,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -20672,60 +17352,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "058b8213-e164-44f2-8868-3cf69c47112b")
 		)
@@ -20784,7 +17410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E12"
+		(property "Description" "RC0402JR-072K2L -55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±100ppm/℃ ±5% 0402"
 			(at 119.38 90.17 0)
 			(effects
 				(font
@@ -20793,52 +17419,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C163447"
 			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0402"
 			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20851,6 +17447,93 @@
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 58.42 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2580b7e-626b-4945-8045-ec0e0b11cf31")
+		(property "Reference" "TP29"
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ZX-PZ2.54-1-2PZZ Solar current sensing test point 2P header 2.54mm pitch"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7501260"
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Plugin,P=2.54mm"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fe8dbe8-1537-4649-9a75-35f4357ccf8e")
+		)
+		(pin "2"
+			(uuid "749b2ddb-b199-4032-9834-e970b89f98e1")
+		)
+		(instances
+			(project ""
+				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -20907,54 +17590,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21051,54 +17686,6 @@
 				(justify left)
 			)
 		)
-		(property "Availability" ""
-			(at 123.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 123.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 123.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 123.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 123.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 123.19 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2a185c0a-26d0-4604-aec2-ef8d8dfecbc6")
 		)
@@ -21139,7 +17726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.92 33.528 90)
 			(effects
 				(font
@@ -21157,7 +17744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor E24"
+		(property "Description" "RC0603FR-07300RL -55℃~+155℃ 100mW 300Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 121.92 31.75 0)
 			(effects
 				(font
@@ -21166,52 +17753,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "JLCPCB Part #" "C114617"
 			(at 121.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "0603"
 			(at 121.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21282,63 +17839,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b2a6293f-7aa5-44db-a67e-0372119842ec")
 		)
@@ -21407,52 +17907,22 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 66.04 144.78 0)
+		(property "JLCPCB Part #" "C780769"
+			(at 66.04 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Package" "TSOT-23-6"
 			(at 66.04 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "3"
