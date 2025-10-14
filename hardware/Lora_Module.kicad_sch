@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "446c30dd-4e58-4a7b-8ca1-dc9cf3723a1d")
 	(paper "A4")
+	(title_block
+		(rev "0.1")
+		(company "ECAM Brussels Engineering School")
+	)
 	(lib_symbols
 		(symbol "RF_Module:RFM95W-868S2"
 			(pin_names

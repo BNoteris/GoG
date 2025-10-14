@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "bab2324e-cd32-4137-b5a9-50f266e41c2f")
 	(paper "A4")
+	(title_block
+		(rev "0.1")
+		(company "ECAM Brussels Engineering School")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
