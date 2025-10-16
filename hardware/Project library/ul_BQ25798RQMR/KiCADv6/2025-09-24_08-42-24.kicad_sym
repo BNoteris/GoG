@@ -130,7 +130,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at 0 1.27 0)
 				(length 5.08)
 				(name "VAC2"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at 0 -1.27 0)
 				(length 5.08)
 				(name "ACDRV2"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -6.35 0)
+				(at 0 -5.08 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 0)
+				(at 0 -7.62 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
+				(at 0 -11.43 0)
 				(length 5.08)
 				(name "ACDRV1"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 -13.97 0)
 				(length 5.08)
 				(name "VAC1"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -22.86 0)
+				(at 0 -21.59 0)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -25.4 0)
+				(at 0 -24.13 0)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -30.48 0)
+				(at 0 -29.21 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -33.02 0)
+				(at 0 -31.75 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -50.8 0)
+				(at 0 -53.34 0)
 				(length 5.08)
 				(name "TS"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -54.61 0)
+				(at 0 -55.88 0)
 				(length 5.08)
 				(name "ILIM_HIZ"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -58.42 0)
+				(at 0 -59.69 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 0 180)
+				(at 36.83 1.27 180)
 				(length 5.08)
 				(name "PMID"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -3.81 180)
+				(at 36.83 -12.7 180)
 				(length 5.08)
 				(name "BTST1"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -10.16 180)
+				(at 36.83 -16.51 180)
 				(length 5.08)
 				(name "SW1"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -13.97 180)
+				(at 36.83 -20.32 180)
 				(length 5.08)
 				(name "REGN"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -17.78 180)
+				(at 36.83 -24.13 180)
 				(length 5.08)
 				(name "SW2"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -24.13 180)
+				(at 36.83 -27.94 180)
 				(length 5.08)
 				(name "BTST2"
 					(effects
@@ -544,7 +544,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -30.48 180)
+				(at 36.83 -33.02 180)
 				(length 5.08)
 				(name "SYS"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -35.56 180)
+				(at 36.83 -43.18 180)
 				(length 5.08)
 				(name "BAT"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -38.1 180)
+				(at 36.83 -45.72 180)
 				(length 5.08)
 				(name "BAT"
 					(effects
@@ -598,25 +598,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -43.18 180)
-				(length 5.08)
-				(name "SDRV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 36.83 -48.26 180)
+				(at 36.83 -49.53 180)
 				(length 5.08)
 				(name "BATP"
 					(effects
@@ -635,6 +617,24 @@
 			)
 			(pin unspecified line
 				(at 36.83 -54.61 180)
+				(length 5.08)
+				(name "SDRV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 36.83 -59.69 180)
 				(length 5.08)
 				(name "PROG"
 					(effects

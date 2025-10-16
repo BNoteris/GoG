@@ -3,4 +3,6 @@
   (lib (name "GT-USB-7004")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_GT-USB-7004/KiCADv6/2025-09-24_07-52-28.kicad_sym")(options "")(descr ""))
   (lib (name "VBUS05L1-DD1-G-08")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_VBUS05L1-DD1-G-08/KiCADv6/2025-09-24_07-59-37.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25798RQMR")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_BQ25798RQMR/KiCADv6/2025-09-24_08-42-24.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5405")(type "KiCad")(uri "${KIPRJMOD}/Project library/TPS5405/TPS5405.kicad_sym")(options "")(descr ""))
+  (lib (name "SRP4020TA-5R6M")(type "KiCad")(uri "${KIPRJMOD}/Project library/SRP4020TA-5R6M/SRP4020TA-5R6M.kicad_sym")(options "")(descr ""))
 )

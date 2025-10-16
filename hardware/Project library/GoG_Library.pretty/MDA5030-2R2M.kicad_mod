@@ -1,0 +1,232 @@
+(footprint "MDA5030-2R2M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, KOHERelec, MDA5030-2R2M, 5.7x5.2x2.8mm, 2.2uH 21.6mΩ 6.5A 6.5A ±20% SMD")
+	(tags "Inductor power shielded SMD")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "0a82b547-f9b8-4eef-8b89-5c76468c724b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MDA5030-2R2M"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "9cca16ae-6597-4951-bd3b-461e95ec8314")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590183141920047104"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24bd5538-e7e3-403f-a97d-ebbc97999c81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebdaa5cc-202c-4c29-9003-023e3930b6f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.11 -2.86)
+		(end -3.11 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42004c8a-6a99-4589-baae-f71bcdf92e3d")
+	)
+	(fp_line
+		(start -3.11 -2.86)
+		(end 3.11 -2.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "829a06df-3ae8-4203-9bb4-1cb2cf82d9b8")
+	)
+	(fp_line
+		(start -3.11 2.86)
+		(end -3.11 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55d2e264-6c36-4c7f-b2c7-39a06d1d6113")
+	)
+	(fp_line
+		(start -3.11 2.86)
+		(end 3.11 2.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "295ebeb2-99cd-4249-8544-cf4f28694689")
+	)
+	(fp_line
+		(start 3.11 -2.86)
+		(end 3.11 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "319cfb16-1e39-41d2-9606-5952a27fc148")
+	)
+	(fp_line
+		(start 3.11 2.86)
+		(end 3.11 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fe52272-41d6-4229-88e0-b0b194f8226b")
+	)
+	(fp_line
+		(start -3.5 -2.85)
+		(end -3.5 2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "491da136-d4fc-4a45-bb1e-925e4fcc5f33")
+	)
+	(fp_line
+		(start -3.5 2.85)
+		(end 3.5 2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a62ac9d-1bf6-4062-b247-49c329b696f8")
+	)
+	(fp_line
+		(start 3.5 -2.85)
+		(end -3.5 -2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c5178ce-0434-4631-b492-33225acfa762")
+	)
+	(fp_line
+		(start 3.5 2.85)
+		(end 3.5 -2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bc38573-c6d8-4ad7-af80-1df29f8df937")
+	)
+	(fp_line
+		(start -2.85 -2.6)
+		(end -2.85 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12b96354-8b2c-47dc-944b-8f6e16d563be")
+	)
+	(fp_line
+		(start -2.85 2.6)
+		(end 2.85 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bce772d-3445-427a-8f01-d30b38f32e88")
+	)
+	(fp_line
+		(start 2.85 -2.6)
+		(end -2.85 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fffafd23-57da-47e2-ab71-c593d5e78dba")
+	)
+	(fp_line
+		(start 2.85 2.6)
+		(end 2.85 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3511a6d2-2115-48ea-9c18-e0ec2d8926c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5ca9400b-2772-455b-a89a-1c4ef66612c4")
+		(effects
+			(font
+				(size 0.666667 0.666667)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.1 0)
+		(size 1.8 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "8c28f906-d587-4731-ab9e-23c0debbd851")
+	)
+	(pad "2" smd roundrect
+		(at 2.1 0)
+		(size 1.8 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "ec6f7a21-594b-4438-b175-5f00d2bd9b66")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP5030T.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

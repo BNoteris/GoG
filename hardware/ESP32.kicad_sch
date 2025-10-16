@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "bab2324e-cd32-4137-b5a9-50f266e41c2f")
 	(paper "A4")
+	(title_block
+		(rev "0.1")
+		(company "ECAM Brussels Engineering School")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -2459,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 58.42) (xy 198.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a887dc-3454-422d-9a28-a362dbec0066")
+	)
+	(wire
+		(pts
 			(xy 77.47 101.6) (xy 77.47 105.41)
 		)
 		(stroke
@@ -2726,6 +2740,16 @@
 			(type default)
 		)
 		(uuid "7bf8a613-6cc0-490b-98e9-4525c563dbaf")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f17435f-324e-4e2a-acc6-fd51877ae8e1")
 	)
 	(wire
 		(pts
@@ -3401,6 +3425,28 @@
 			)
 		)
 	)
+	(global_label "BQ_CE_N"
+		(shape output)
+		(at 191.77 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ec807f8-ce32-41a3-9e96-5b4f91112891")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4996 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MISO"
 		(shape input)
 		(at 186.69 66.04 180)
@@ -3485,6 +3531,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BQ_INT_N"
+		(shape input)
+		(at 191.77 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92cabfe2-fecc-4dea-918f-4312c93a07c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.0157 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4634,15 +4702,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 88.9 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
 			(at 88.9 45.72 0)
 			(effects
 				(font
