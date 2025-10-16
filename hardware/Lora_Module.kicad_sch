@@ -1787,7 +1787,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "RFM_RESET"
 		(shape input)
 		(at 85.09 77.47 180)
 		(fields_autoplaced yes)
@@ -1799,7 +1799,7 @@
 		)
 		(uuid "30015b69-dc42-4c5d-ba02-81c9a43ed6ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3597 77.47 0)
+			(at 71.5821 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1875,7 @@
 			)
 		)
 	)
-	(global_label "DIO0"
+	(global_label "RFM_DIO0"
 		(shape input)
 		(at 132.08 82.55 0)
 		(fields_autoplaced yes)
@@ -1887,7 +1887,7 @@
 		)
 		(uuid "dd376f9f-9cb8-463d-9715-902a2cfc65be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.48 82.55 0)
+			(at 144.2576 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
