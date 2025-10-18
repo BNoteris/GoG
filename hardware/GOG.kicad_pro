@@ -255,7 +255,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1143000|533400|fcc6766f-437c-4d10-8efa-8cc3dfe6f19e|892295b0-23b5-4cbd-b523-57ec49c14ccf|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d",
+        ""
+      ],
+      [
+        "multiple_net_names|1879600|558800|92cabfe2-fecc-4dea-918f-4312c93a07c7|209c1464-219a-4c96-a871-8db6e5b75b0f|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1828800|596900|aa903c08-fe60-4162-8b58-a277c7bc398a|00000000-0000-0000-0000-000000000000|/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0|/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0|",
+        "Avoided placing a power flag in thight space"
+      ],
+      [
+        "power_pin_not_driven|1828800|673100|ab6ed247-74d9-4600-bf08-92718c34b894|00000000-0000-0000-0000-000000000000|/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0|/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0|",
+        "Avoided placing a power flag in thight space"
+      ],
+      [
+        "power_pin_not_driven|1828800|927100|4a205010-5a3a-4090-84e0-705432f2f2ce|00000000-0000-0000-0000-000000000000|/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0|/5b969f6e-a36e-432b-8f00-b2d6a515a877/c7197dae-6cdc-4538-9538-27053b29fcd0|",
+        "Avoided placing a power flag in thight space"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -941,7 +962,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
