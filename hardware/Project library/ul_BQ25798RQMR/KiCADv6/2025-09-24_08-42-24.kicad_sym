@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RQM0029A-MFG"
+		(property "Footprint" "BQ25798RQMR:IC_BQ25798RQMR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54,14 +54,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "BQ25798RQMR"
 			(at 0 0 0)
 			(effects
@@ -71,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RQM0029A-MFG"
+		(property "ki_fp_filters" "BQ25798"
 			(at 0 0 0)
 			(effects
 				(font

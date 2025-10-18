@@ -1945,7 +1945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "GoG_Library:TestPoint_Pad_D1.5mm_JLCPCB"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "GoG_Library:TestPoint_Pad_D1.5mm_JLCPCB"
 			(at 86.36 87.63 0)
 			(effects
 				(font
@@ -2764,7 +2764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "GoG_Library:TestPoint_Pad_D1.5mm_JLCPCB"
 			(at 97.79 50.8 0)
 			(effects
 				(font
