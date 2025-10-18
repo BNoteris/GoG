@@ -4496,7 +4496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19d78589-920e-430a-b5a2-1034a22aafc6")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 72.39 96.5199 0)
 			(effects
 				(font
@@ -4550,7 +4550,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4566,7 +4566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a7af52e-da31-4dee-988d-21772bdf18c3")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 215.5033 38.1 0)
 			(effects
 				(font
@@ -4671,7 +4671,7 @@
 		(instances
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bb30cb7-6613-4178-9214-3e00a8f06939")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28260c44-f54f-4211-866a-430365b6b07a")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 187.96 38.1 0)
 			(effects
 				(font
@@ -4807,7 +4807,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4892,7 +4892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30ec17b6-c6ef-466d-8be3-de15a6da54b4")
-		(property "Reference" "J10"
+		(property "Reference" "J3"
 			(at 157.48 137.16 0)
 			(effects
 				(font
@@ -4951,7 +4951,7 @@
 		(instances
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4966,7 +4966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3682581b-3242-4642-8ec6-d7349748491a")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 157.48 152.4 0)
 			(effects
 				(font
@@ -5019,7 +5019,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5035,7 +5035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49a08d4d-918d-4bab-a851-073f3091bffb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR01"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR037")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57122dc5-ac33-4175-8973-db618e138a01")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 149.86 39.3699 0)
 			(effects
 				(font
@@ -5155,7 +5155,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5986fe11-0def-457c-87d4-f0c81ddc5926")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 204.47 102.87 0)
 			(effects
 				(font
@@ -5361,7 +5361,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5377,7 +5377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a4ba7a-3071-4d68-a206-8cb624cbc88a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -5427,7 +5427,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5443,7 +5443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "799fe443-e68b-493f-9938-116fbf7e7527")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 124.46 119.38 0)
 			(effects
 				(font
@@ -5493,7 +5493,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5577,7 +5577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88fd2174-d7a4-4c09-ab05-83889b70e90c")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 157.48 127 0)
 			(effects
 				(font
@@ -5630,7 +5630,7 @@
 		(instances
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91aab894-9954-4a1c-aa17-c562522085b5")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 92.71 46.0374 90)
 			(effects
 				(font
@@ -5700,7 +5700,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5716,7 +5716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99eca7a3-3911-4a1f-88c8-eb4341603fd2")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 126.1111 95.25 0)
 			(effects
 				(font
@@ -5785,7 +5785,7 @@
 		(instances
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5871,7 +5871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3f767b0-81f2-49a1-8038-bd212295bc4f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6007,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b836f6ec-1c1e-47fb-b830-99b5584e8d7e")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 80.01 96.5199 0)
 			(effects
 				(font
@@ -6061,7 +6061,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6077,7 +6077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9006df-b646-4af2-b35f-2fff6cd34b01")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 213.36 96.52 0)
 			(effects
 				(font
@@ -6127,7 +6127,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e327c0-6bc3-48ff-b7f8-21e023dc7636")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 31.75 87.63 0)
 			(effects
 				(font
@@ -6193,7 +6193,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6209,7 +6209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9613ef4-d902-4b10-9a94-dc34c5d4ed19")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 24.13 87.63 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6274,7 +6274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba30e46-8a68-47af-9ec0-b5ca9890ad51")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -6328,7 +6328,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6414,7 +6414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2423d54-af0a-4a88-aecf-3bb8fb57ceb3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -6464,7 +6464,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6480,7 +6480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa7c1893-9044-4da7-a916-ac479a5e92a9")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 91.44 36.8299 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 		(instances
 			(project "GOG"
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)
