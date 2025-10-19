@@ -30864,6 +30864,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "3.3V"
+		(at 152.75 104.75 90)
+		(layer "F.SilkS")
+		(uuid "3e14d8a5-7756-4722-86d6-de5c38cfdd04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SPI MOSI"
 		(at 128.5 71.5 90)
 		(layer "F.SilkS")
@@ -30892,6 +30904,18 @@
 		(at 186.25 104.5 0)
 		(layer "F.SilkS")
 		(uuid "50c0bcf6-d1d7-4ca9-acde-f00832840539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VSYS"
+		(at 147.5 105 90)
+		(layer "F.SilkS")
+		(uuid "5afd391b-1a86-46af-9c05-a690cfcd53fd")
 		(effects
 			(font
 				(size 1 1)
@@ -30996,6 +31020,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5V"
+		(at 150.25 103.25 90)
+		(layer "F.SilkS")
+		(uuid "ca2d5e05-733e-4580-b055-ffb57a8170de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RX TX"
 		(at 163 70.25 0)
 		(layer "F.SilkS")
@@ -31012,6 +31048,18 @@
 		(at 123.5 71.5 90)
 		(layer "F.SilkS")
 		(uuid "d5c6e194-7491-4f35-9b0a-4f59ad596d6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 155.5 104.5 90)
+		(layer "F.SilkS")
+		(uuid "e343e17d-06d5-4859-8667-887d5f3c300d")
 		(effects
 			(font
 				(size 1 1)
