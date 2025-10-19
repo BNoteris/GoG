@@ -1316,12 +1316,6 @@
 		(uuid "5bacfa97-d496-4492-b261-a14c807337f0")
 	)
 	(junction
-		(at 109.22 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69869c24-755e-4380-98f0-ad1281a59d2c")
-	)
-	(junction
 		(at 111.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1340,16 +1334,16 @@
 		(uuid "8da38898-8b31-45b2-9039-b0b055a9aa9f")
 	)
 	(junction
-		(at 109.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93cecafd-9002-498c-a929-b5290cd1ef72")
-	)
-	(junction
 		(at 165.1 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98495e99-f6be-4c47-857b-d4dc7ccacc84")
+	)
+	(junction
+		(at 97.79 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3e0659-998b-48f3-97ea-c90c58c61f42")
 	)
 	(junction
 		(at 180.34 72.39)
@@ -1385,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 87.63) (xy 95.25 87.63)
+			(xy 93.98 81.28) (xy 95.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1405,17 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 125.73 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cfee22c-d887-400d-a04a-5af22b4b4c69")
-	)
-	(wire
-		(pts
-			(xy 109.22 38.1) (xy 86.36 38.1)
+			(xy 109.22 44.45) (xy 97.79 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1455,13 +1439,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 109.22 38.1)
+			(xy 97.79 44.45) (xy 92.71 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "402823a4-8654-4f82-a7b4-1bbfdfbcffac")
+		(uuid "3c50ad5c-4345-41cf-8e18-c90ecdbf026c")
 	)
 	(wire
 		(pts
@@ -1485,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 95.25 77.47)
+			(xy 95.25 81.28) (xy 95.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 92.71) (xy 125.73 82.55)
+			(xy 125.73 81.28) (xy 125.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1512,6 +1496,16 @@
 			(type default)
 		)
 		(uuid "6e5fe82e-6c90-4c78-a2d4-1cf9759e3dc6")
+	)
+	(wire
+		(pts
+			(xy 97.79 44.45) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbae4f4-e533-4ca9-8600-6aad4e208ed1")
 	)
 	(wire
 		(pts
@@ -1555,16 +1549,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 38.1) (xy 116.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ac0676-a10f-4908-be8c-b9fadfd46c8f")
-	)
-	(wire
-		(pts
 			(xy 179.07 72.39) (xy 179.07 69.85)
 		)
 		(stroke
@@ -1592,16 +1576,6 @@
 			(type default)
 		)
 		(uuid "a00989d8-4366-4466-9163-ecdd7676aaa7")
-	)
-	(wire
-		(pts
-			(xy 92.71 50.8) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a14b7f29-d6d1-4eec-9a92-563139031972")
 	)
 	(wire
 		(pts
@@ -1715,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 59.69) (xy 109.22 50.8)
+			(xy 109.22 44.45) (xy 109.22 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1805,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 86.36 38.1 180)
+		(at 92.71 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1841,7 +1815,7 @@
 		)
 		(uuid "3f62ea68-0e0f-44eb-a263-7b06c344930b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.2624 38.1 0)
+			(at 85.6124 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1893,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 92.71 0)
+		(at 125.73 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1927,8 +1901,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "121a0bab-ad90-4cbe-b717-ccc5cf88830a")
-		(property "Reference" "TP_DIO1"
-			(at 127 88.1379 0)
+		(property "Reference" "TP2"
+			(at 128.27 76.7079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,16 +1911,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 127 90.6779 0)
+			(at 128.27 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "GoG_Library:TestPoint_Pad_D1.5mm_JLCPCB"
-			(at 129.54 92.71 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 92.71 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1939,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 124.46 92.71 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1953,7 @@
 		(instances
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/9db73a32-37a4-4249-8656-c1ba9b3afe01"
-					(reference "TP_DIO1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2387,34 +2362,33 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 87.63 0)
+		(at 93.98 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d397fe0-911f-4a02-ba6e-6db161faa0ce")
-		(property "Reference" "TP_RESET1"
-			(at 83.82 83.0579 0)
+		(property "Reference" "TP1"
+			(at 86.36 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 83.82 85.5979 0)
+			(at 91.9479 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "GoG_Library:TestPoint_Pad_D1.5mm_JLCPCB"
-			(at 86.36 87.63 0)
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 87.63 0)
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2406,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.28 87.63 0)
+			(at 93.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2420,7 @@
 		(instances
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/9db73a32-37a4-4249-8656-c1ba9b3afe01"
-					(reference "TP_RESET1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 38.1 0)
+		(at 97.79 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2681,7 +2655,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1dbb177-dc97-463e-92e6-f23714e01118")
 		(property "Reference" "#PWR011"
-			(at 127 44.45 0)
+			(at 97.79 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 43.18 0)
+			(at 97.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 38.1 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 38.1 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 38.1 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,73 +2705,6 @@
 			(project ""
 				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/9db73a32-37a4-4249-8656-c1ba9b3afe01"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b32037e8-ca44-49f3-8996-e926bac452aa")
-		(property "Reference" "TP_VCC_Lora1"
-			(at 95.25 46.2279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GoG_Library:TestPoint_Pad_D1.5mm_JLCPCB"
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.71 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05c04e43-9eea-4a35-9d57-f50fbc3b8fea")
-		)
-		(instances
-			(project ""
-				(path "/5b969f6e-a36e-432b-8f00-b2d6a515a877/9db73a32-37a4-4249-8656-c1ba9b3afe01"
-					(reference "TP_VCC_Lora1")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2844,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 38.1 270)
+		(at 97.79 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2945,7 +2852,7 @@
 		(dnp no)
 		(uuid "d179b714-1e57-427d-8837-ca93a6dad9a1")
 		(property "Reference" "C4"
-			(at 114.3001 41.91 0)
+			(at 101.6 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2861,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.7601 41.91 0)
+			(at 101.6 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2870,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 109.22 39.0652 0)
+			(at 98.7552 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 38.1 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +2888,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 113.03 38.1 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +2897,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1590"
-			(at 113.03 38.1 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +2906,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 113.03 38.1 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
