@@ -73,20 +73,20 @@
           "Modified to avoid too short hole to pad clearance"
         ],
         [
-          "silk_edge_clearance|140000000|113230000|5f51351c-78fc-42dc-a436-a500ed0ec33e|08aa19a3-33ad-4914-9877-c2685519b976",
-          ""
+          "silk_edge_clearance|140000000|115020000|52585a94-1bc0-46af-a4ec-9f39785a6df0|08aa19a3-33ad-4914-9877-c2685519b976",
+          "SMA connector"
         ],
         [
-          "silk_edge_clearance|140000000|119690000|5f51351c-78fc-42dc-a436-a500ed0ec33e|823e1d02-57ef-4b0e-b812-67d092a9168d",
-          ""
+          "silk_edge_clearance|140000000|121480000|52585a94-1bc0-46af-a4ec-9f39785a6df0|823e1d02-57ef-4b0e-b812-67d092a9168d",
+          "SMA connector"
         ],
         [
-          "silk_edge_clearance|189740000|83500000|5f51351c-78fc-42dc-a436-a500ed0ec33e|898755c7-e3bc-4b9d-9ae5-5046aef12b6e",
-          ""
+          "silk_edge_clearance|189740000|83500000|4e024774-221b-4a60-a12b-7b9fefaba8fd|898755c7-e3bc-4b9d-9ae5-5046aef12b6e",
+          "ESP32 antenna silkscreen"
         ],
         [
-          "silk_edge_clearance|208050000|83500000|5f51351c-78fc-42dc-a436-a500ed0ec33e|6d3ef3c4-bd67-42cf-8828-d26e1d75e429",
-          ""
+          "silk_edge_clearance|208050000|83500000|4e024774-221b-4a60-a12b-7b9fefaba8fd|6d3ef3c4-bd67-42cf-8828-d26e1d75e429",
+          "ESP32 antenna silkscreen"
         ]
       ],
       "meta": {
@@ -155,7 +155,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -165,10 +165,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -221,6 +221,7 @@
         0.15,
         0.2,
         0.4,
+        0.5,
         0.8
       ],
       "tuning_pattern_settings": {
@@ -228,7 +229,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -244,9 +245,9 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.3
         }
       },
       "via_dimensions": [
@@ -257,6 +258,10 @@
         {
           "diameter": 0.5,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         },
         {
           "diameter": 0.5,
@@ -282,6 +287,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "multiple_net_names|1054100|533400|92cabfe2-fecc-4dea-918f-4312c93a07c7|c9785b89-b2d7-4261-9634-412a5cd1e007|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d",
+        ""
+      ],
       [
         "multiple_net_names|1143000|533400|fcc6766f-437c-4d10-8efa-8cc3dfe6f19e|892295b0-23b5-4cbd-b523-57ec49c14ccf|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d|/5b969f6e-a36e-432b-8f00-b2d6a515a877/36e0c9fb-3d9d-4ab1-92fc-4f7433c1320d",
         ""
@@ -575,26 +584,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.5,
@@ -611,7 +603,7 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -628,7 +620,7 @@
         "microvia_drill": 0.1,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -645,7 +637,7 @@
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -662,7 +654,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -732,12 +724,8 @@
         "pattern": "VBUS"
       },
       {
-        "netclass": "3V3",
+        "netclass": "3.3V",
         "pattern": "3.3V"
-      },
-      {
-        "netclass": "5V",
-        "pattern": "5V"
       },
       {
         "netclass": "I2C",
@@ -777,11 +765,11 @@
       },
       {
         "netclass": "VSYS",
-        "pattern": "VSYS"
+        "pattern": "*VSYS"
       },
       {
         "netclass": "VBAT",
-        "pattern": "VBAT"
+        "pattern": "*VBAT"
       },
       {
         "netclass": "USB",
