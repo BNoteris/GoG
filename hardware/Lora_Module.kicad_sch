@@ -2568,7 +2568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:HOPERF_RFM9XW_SMD"
+		(property "Footprint" "GoG_Library:HOPERF_RFM9XW_SMD"
 			(at 25.4 30.48 0)
 			(effects
 				(font
