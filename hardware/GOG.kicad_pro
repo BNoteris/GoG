@@ -782,7 +782,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -851,7 +851,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
           "show": true
@@ -973,10 +973,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "JLCPCB Part #"
     },
     "connection_grid_size": 50.0,
     "drawing": {

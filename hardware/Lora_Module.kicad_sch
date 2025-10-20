@@ -1896,7 +1896,7 @@
 		(at 125.73 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1938,7 +1938,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test point 1.5mm diameter"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "-"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -2205,7 +2223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "(NC)"
 			(at 152.4 77.4699 0)
 			(effects
 				(font
@@ -2318,7 +2336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "PMR10EZPJ000 0Ω 500mW Shunt Resistor 0805"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -2336,7 +2354,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "/"
+		(property "JLCPCB Part #" "C2842889"
 			(at 158.75 64.77 90)
 			(effects
 				(font
@@ -2365,7 +2383,7 @@
 		(at 93.98 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8d397fe0-911f-4a02-ba6e-6db161faa0ce")
@@ -2405,7 +2423,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test point 1.5mm diameter"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "-"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
 			(at 93.98 81.28 0)
 			(effects
 				(font
@@ -2445,7 +2481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "(NC)"
 			(at 168.91 77.4699 0)
 			(effects
 				(font
@@ -2887,7 +2923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "CL10B104KA8NNNC 100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 97.79 49.53 0)
 			(effects
 				(font

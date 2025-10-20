@@ -80,7 +80,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -108,12 +108,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -233,7 +233,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "B4B-XH-AM(LF)(SN) 1x4P 2.5mm JST connector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -241,6 +241,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C161871"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dedab4c3-022f-4206-a68f-1dfbdb264deb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "Plugin,P=2.5mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df09ab55-0bf1-4fdc-9ec9-dd230ee58462")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -699,7 +725,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-071KL 100mW 1kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -707,6 +733,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22548"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d70d7d5f-a1dd-48f4-9737-5ae42e47fa67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9939b5a0-d601-4b5c-8a50-0e8a81232421")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1150,7 +1202,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1163,7 +1215,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1180,7 +1232,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/b8470835-4f61-4d79-ab9e-6d9313a91753")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -1242,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "(NC)"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "c5a064b8-d61a-4162-8fd0-a1a24514f6f0")
@@ -1769,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-0710KL 100mW 10kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1777,6 +1829,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C98220"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac4c0e3-5f7c-4c28-a4bf-b94f327dec85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07ae0b9e-e1de-4998-b937-894dffcc214b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1969,7 +2047,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "ZX-PZ2.54-1-4PZZ 1x4P 2.54mm Pin Header"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1977,6 +2055,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C7501262"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6054301-dc49-436c-a668-cd70d9806142")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "Plugin,P=2.54mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "322acb77-7d81-4e59-ac3d-c6f14c9673dd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2745,7 +2849,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2758,7 +2862,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2775,7 +2879,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/6e02a5ee-eac1-49ca-a6e6-44810e86ad35")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -3112,7 +3216,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3125,7 +3229,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3142,7 +3246,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/601c0e67-3cfa-4ab8-a143-54aabf1b836d")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -3702,7 +3806,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test point 1.5mm diameter"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3715,11 +3819,37 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "-"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54049340-a15b-449b-b7f3-f514a75ba4a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "-"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a902607-8937-4d27-96fd-c3c5b471b109")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9db73a32-37a4-4249-8656-c1ba9b3afe01/121a0bab-ad90-4cbe-b717-ccc5cf88830a")
 		(sheetname "/Lora_Module/")
 		(sheetfile "Lora_Module.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -4143,7 +4273,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "MEIHUA MHT192DUGCT LED 2.3V~2.8V 518nm 565mcd 5mA 60mW Green"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4151,6 +4281,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C7470862"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b69ec8b3-455f-41a2-8e23-b8ed7c35bfdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554791c5-dd70-4ca7-bea6-d8bfb4286f9e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5663,7 +5819,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5676,7 +5832,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5693,7 +5849,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/f32551aa-186c-4638-a5c4-85680f888816")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -5792,7 +5948,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5805,7 +5961,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5822,7 +5978,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/eefef76c-69a5-4788-80c1-253ebbf36b39")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -5921,7 +6077,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5934,7 +6090,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5951,7 +6107,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/54c72559-85bb-4926-8a56-a0eacbf74ee7")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -6037,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "B4B-XH-AM(LF)(SN) 1x4P 2.5mm JST connector"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6045,6 +6201,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C161871"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d18548c-a262-453a-90f8-8caa8827c5a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "Plugin,P=2.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ff36f77-ec2a-4662-9559-12b9cc51b0e8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6517,7 +6699,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6530,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6547,7 +6729,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/d717fc01-3f54-44cf-a95d-bd840900d0a0")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -6847,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "(NC)"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "1c9df2a8-98d2-45ad-8954-e194e46c2dd3")
@@ -7334,7 +7516,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7347,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7364,7 +7546,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/4900d423-cfb1-4497-977b-76ab56ca9291")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -7701,7 +7883,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7714,7 +7896,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7731,7 +7913,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/15baeb97-5abb-4981-a870-ca398fe0d518")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -7929,7 +8111,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7942,7 +8124,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7959,7 +8141,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/84bdaefb-947c-4459-889d-c865f5ce3d73")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -8282,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-071KL 100mW 1kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8290,6 +8472,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22548"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15e254fc-ff32-4fb7-ad59-c62a55b95e27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c049d556-b296-4f8b-9850-2ab21a363f69")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8720,7 +8928,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8733,7 +8941,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8750,7 +8958,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/b09c4c25-dbd0-42f7-be63-a2d89890670b")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -9384,7 +9592,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "MEIHUA MHT192DUGCT LED 2.3V~2.8V 518nm 565mcd 5mA 60mW Green"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9392,6 +9600,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C7470862"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3fb6dc4-a0d9-4e21-b933-7de6f98f2121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "488a291c-e7bb-43e2-8506-59d13ccc9f22")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9565,14 +9799,14 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+	(footprint "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 		(layer "F.Cu")
 		(uuid "50214754-18a0-4704-808e-7192bd173a3f")
 		(at 187.75 103.25 90)
-		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+		(descr "Surface Mount Tactile Switch for High-Density Mounting, 4.3mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW2"
-			(at 0 -4.5 90)
+			(at 0 -4.3 90)
 			(layer "F.SilkS")
 			(uuid "12af1378-4a81-4221-88a3-d597942e523e")
 			(effects
@@ -9606,7 +9840,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Omron B3FS-1010P 6x6mm single pole normally-open tactile switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9615,6 +9849,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C231324"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2797ce7-65db-4ac4-8f72-36c76aa0b5c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMD-4P,6.3x6mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89105899-a4c4-437f-bf05-0c82ce22c1b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9632,7 +9892,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd15783f-1949-48ed-aac6-1a8208eaa143")
+			(uuid "99ba1529-3718-44ff-a870-bc0cbe19486b")
 		)
 		(fp_line
 			(start 2.9 -3.25)
@@ -9642,7 +9902,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4cfbc8bc-3646-42b9-bedf-60f00608c700")
+			(uuid "3149997f-1123-4531-b5ba-7af9a24e6517")
 		)
 		(fp_line
 			(start -5.1 -2.3)
@@ -9652,7 +9912,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f7c9e708-b878-48e1-8a9f-a66ad166590d")
+			(uuid "4dace3d8-275f-4b7e-9303-e773328a6055")
 		)
 		(fp_line
 			(start 3.1 -1.3)
@@ -9662,7 +9922,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "890050dc-6cb1-46b8-8365-4534d248dacc")
+			(uuid "08a706b2-477e-4fcc-aced-953ef9d7c14e")
 		)
 		(fp_line
 			(start -3.1 -1.3)
@@ -9672,7 +9932,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "12dc694f-0a3b-463a-86a4-91aa23bd1e45")
+			(uuid "697f46b8-c023-4176-a845-26c4b73ac5e4")
 		)
 		(fp_line
 			(start 3 3.25)
@@ -9682,7 +9942,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9ab8ea27-a965-48ab-98c2-9461976afaa7")
+			(uuid "bcf24088-a890-40d5-9d61-b8150e0add61")
 		)
 		(fp_line
 			(start 5.05 -3.4)
@@ -9692,7 +9952,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "af2b0085-48c3-4394-b19b-92732cf72673")
+			(uuid "56c573c3-eb1f-46a1-abe8-c869ae82c25a")
 		)
 		(fp_line
 			(start -5.05 -3.4)
@@ -9702,7 +9962,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a0f48118-f2c3-4ef9-b225-b989aa9a7d70")
+			(uuid "85631bd2-130e-4483-85ab-a1e5e107f283")
 		)
 		(fp_line
 			(start 5.05 -1.3)
@@ -9712,7 +9972,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fc2073a9-d08d-45e0-8067-bd6a88928b20")
+			(uuid "50ebc4ac-8435-46d0-ab6c-9e28d6b604e9")
 		)
 		(fp_line
 			(start 3.25 -1.3)
@@ -9722,7 +9982,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "de9d28db-3505-48c9-94c2-a927c6578ec2")
+			(uuid "dbc3888d-b41b-4bbf-951e-b23bd96b140d")
 		)
 		(fp_line
 			(start -3.25 -1.3)
@@ -9732,7 +9992,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c71f4b57-1e7e-455e-aab1-36db0b1f74e8")
+			(uuid "5bd7e3dc-86d1-4700-8df5-c0eaca90d7bd")
 		)
 		(fp_line
 			(start -5.05 -1.3)
@@ -9742,7 +10002,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ce924d1e-26cb-438d-a956-b2bb12bd3e26")
+			(uuid "ca15e776-ba4c-45c9-9928-097394b1f09e")
 		)
 		(fp_line
 			(start 5.05 1.3)
@@ -9752,7 +10012,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "99688baa-5cac-41ba-93f4-8b943b0a13ac")
+			(uuid "c19accfe-a8d9-4a6c-8437-04f42a6bee50")
 		)
 		(fp_line
 			(start 3.25 1.3)
@@ -9762,7 +10022,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6c541c3c-096a-4da6-9ffa-72c1670a78b7")
+			(uuid "b9f392d3-d487-417b-8e49-7f4531991694")
 		)
 		(fp_line
 			(start -3.25 1.3)
@@ -9772,7 +10032,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c918f82c-410d-409e-9e6a-6061ad6bbff8")
+			(uuid "3f789b28-43db-4ef5-be69-6a1806aa9736")
 		)
 		(fp_line
 			(start -5.05 1.3)
@@ -9782,7 +10042,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "107c4e52-850b-4a1f-a6c6-6ee31af371f9")
+			(uuid "3cc619e0-113b-43c3-a39d-47f239baa165")
 		)
 		(fp_line
 			(start 5.05 3.4)
@@ -9792,7 +10052,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c808f0a9-8579-4302-9038-396e32f3cfab")
+			(uuid "cb29ea4a-072d-482c-87a3-b96b47eb4d43")
 		)
 		(fp_line
 			(start -5.05 3.4)
@@ -9802,7 +10062,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc7d1393-8877-44ea-9ec5-13813819f8a4")
+			(uuid "bf4bb68a-10e0-43ee-9ce9-7eea127f6b21")
 		)
 		(fp_line
 			(start 3 -3.15)
@@ -9812,7 +10072,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "10bc49b7-33a4-4e9b-9590-a89abb8328de")
+			(uuid "cea8e821-72bf-4996-b951-ae58331e6561")
 		)
 		(fp_line
 			(start -3 -3.15)
@@ -9822,7 +10082,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6cd8e9d5-25c1-4c10-883f-ceb35fb87497")
+			(uuid "def5217a-25cd-48d3-978f-f19f0f3809c7")
 		)
 		(fp_line
 			(start 3 3.15)
@@ -9832,7 +10092,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "773cacd4-4209-4452-b2c6-a0f9bcc2e1f4")
+			(uuid "771c820b-355f-4df6-9c63-acccff0f74ec")
 		)
 		(fp_line
 			(start -3 3.15)
@@ -9842,7 +10102,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e5647a06-a6b9-4084-a9a6-77d13b7cc4f8")
+			(uuid "fccc43e5-1aa3-4c25-98e9-08f537284c65")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9853,7 +10113,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "7556ea75-8275-44e9-850d-48bf63a69ec4")
+			(uuid "9354c3e8-42b9-456c-b354-ad2e66c489d4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.2 90)
@@ -9882,7 +10142,7 @@
 			(net 63 "/ESP32/Strap 09")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8ec1825c-63d0-4868-8511-3a2d122e1151")
+			(uuid "d83ff87b-3714-4e0b-b171-d1c6381abdde")
 		)
 		(pad "2" smd rect
 			(at -4 2.25 270)
@@ -9900,10 +10160,10 @@
 			(net 2 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "48dddb4a-4c7e-470b-b1e3-ef1fc4142fd5")
+			(uuid "486dc612-fc62-4e2e-86cc-11e00007eee5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-101xP.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9912,17 +10172,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/Project library/GoG_Library.pretty/b3fs-1010.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -9980,7 +10229,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9993,7 +10242,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10010,7 +10259,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/be2d31a7-7410-4567-b1eb-cd485cc8c7d9")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -11127,7 +11376,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11140,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11157,7 +11406,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/978a1ca3-9104-43e4-a6bb-c0fdae50c28b")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -11743,7 +11992,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11756,7 +12005,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11773,7 +12022,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/7092104c-eb6d-4042-94d5-e34adecbf98f")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -12377,7 +12626,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12390,7 +12639,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12407,7 +12656,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/701aeb47-fa35-4732-ba19-fa4a10b668a0")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -14186,6 +14435,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C5447387"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22884940-c5c1-43a9-a2db-6da027dafb9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMD-20P,15x15mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "152f6c1c-6e9b-4956-9df9-1f9f507238ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "ublox*SAM?M8Q*")
 		(path "/86749ea3-b799-4cf0-94d1-46de6ccb32b0/d6b69e0e-8fcf-480c-b511-12868a7de2c4")
 		(sheetname "/GPS_Module/")
@@ -15173,7 +15448,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CL10B105KA8NNNC 1uF 25V X7R ±10% 0603 Multilayer Ceramic Capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15181,6 +15456,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C29936"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73090652-821f-40b6-b001-4ac41f389890")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "678a5c2c-e8e8-43b7-9f64-d974e685b5ca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15332,14 +15633,14 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+	(footprint "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 		(layer "F.Cu")
 		(uuid "8056e5fd-45ca-4a80-a441-d5f111cfb71c")
 		(at 195.5 103.25 90)
-		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+		(descr "Surface Mount Tactile Switch for High-Density Mounting, 4.3mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW1"
-			(at 0 4.5 90)
+			(at 0 4.25 90)
 			(layer "F.SilkS")
 			(uuid "6d6dd8d8-1dea-43e3-84c3-ddcba29275b9")
 			(effects
@@ -15373,7 +15674,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Omron B3FS-1010P 6x6mm single pole normally-open tactile switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15382,6 +15683,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C231324"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aadd3c2a-131a-4e27-b1c5-cc3779ddb696")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMD-4P,6.3x6mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d668139-6649-4038-bd86-56a045e718ea")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15399,7 +15726,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "59025da6-f9dd-4f4e-9d03-44aef3967409")
+			(uuid "c948cf47-171b-466c-924e-b9eb7a1d1db3")
 		)
 		(fp_line
 			(start 2.9 -3.25)
@@ -15409,7 +15736,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "898edd53-ff33-45b1-b23e-662511c3dcfc")
+			(uuid "9b60d579-c475-4478-ae51-5cdec0dde6d8")
 		)
 		(fp_line
 			(start -5.1 -2.3)
@@ -15419,7 +15746,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9639b8f7-4eb0-4163-9bb3-2c358a2c10a1")
+			(uuid "383b0e74-55e9-4d4c-94ff-1e9ce9fe7e6a")
 		)
 		(fp_line
 			(start 3.1 -1.3)
@@ -15429,7 +15756,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7851f01c-32cb-4f17-afde-7805a94a5412")
+			(uuid "95719341-65df-4230-ae36-3234d16227a5")
 		)
 		(fp_line
 			(start -3.1 -1.3)
@@ -15439,7 +15766,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "600879f1-f146-41de-85b2-2577849cdb7d")
+			(uuid "e6a323cd-5b19-4b24-b218-c78c6b672d48")
 		)
 		(fp_line
 			(start 3 3.25)
@@ -15449,7 +15776,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bd743dbf-26f9-4f29-b50f-30b85bc7e721")
+			(uuid "0469ce8e-3286-4695-a930-7dbc0b686943")
 		)
 		(fp_line
 			(start 5.05 -3.4)
@@ -15459,7 +15786,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc982773-2e51-4beb-85dd-8c3dd545ecda")
+			(uuid "f0edd250-37f7-4ad0-90f9-bc65b5e3944d")
 		)
 		(fp_line
 			(start -5.05 -3.4)
@@ -15469,7 +15796,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b0fbe966-e5a8-4f38-8986-2ce014950ed0")
+			(uuid "496aa2be-13de-4c00-ab39-84e8870d399f")
 		)
 		(fp_line
 			(start 5.05 -1.3)
@@ -15479,7 +15806,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b836dc5-4b12-4f45-b04e-8e276228b706")
+			(uuid "342d4a41-1e30-4551-bce8-3a6ca80673c4")
 		)
 		(fp_line
 			(start 3.25 -1.3)
@@ -15489,7 +15816,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a48ba733-1ff5-4050-8bda-7286c0d0b99c")
+			(uuid "997b809c-7da8-460f-8257-0c9d685e5b54")
 		)
 		(fp_line
 			(start -3.25 -1.3)
@@ -15499,7 +15826,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dcdab0ab-8675-41aa-98b7-5538732d48ef")
+			(uuid "8397380f-b81d-481d-bd2a-c8fd257550bf")
 		)
 		(fp_line
 			(start -5.05 -1.3)
@@ -15509,7 +15836,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d624b05f-be75-42f4-8ecd-bcf1ca082ebe")
+			(uuid "2782db96-7c42-48d4-8367-1c2edd2fa38f")
 		)
 		(fp_line
 			(start 5.05 1.3)
@@ -15519,7 +15846,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0d9a7e1d-929a-41c0-ac14-5885285c6303")
+			(uuid "305af05d-ec80-4395-a849-7815dfea97a3")
 		)
 		(fp_line
 			(start 3.25 1.3)
@@ -15529,7 +15856,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3377e24b-082c-44c0-b717-c14b60876f30")
+			(uuid "5b34c14e-fabd-4217-b862-7a524aa980ff")
 		)
 		(fp_line
 			(start -3.25 1.3)
@@ -15539,7 +15866,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bb5ba92d-3750-4b0d-b3a9-44a101a0756d")
+			(uuid "ebd53d6f-69b7-4a36-a1bc-14f29a48aad3")
 		)
 		(fp_line
 			(start -5.05 1.3)
@@ -15549,7 +15876,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "505de7eb-ad5e-43f3-9028-7c0cb0fb3a5b")
+			(uuid "697ddea1-33f7-4a5f-9882-c4609653f709")
 		)
 		(fp_line
 			(start 5.05 3.4)
@@ -15559,7 +15886,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8ec7d913-60bb-4a45-955d-bb9861bfb1d8")
+			(uuid "e25b09bd-92f1-495a-bb6f-ce4386b36938")
 		)
 		(fp_line
 			(start -5.05 3.4)
@@ -15569,7 +15896,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9ad8278e-8935-4d72-ac0d-67932a85f9cb")
+			(uuid "66617c93-22f7-4150-ba19-257f6ac15880")
 		)
 		(fp_line
 			(start 3 -3.15)
@@ -15579,7 +15906,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4db99c3d-9fcf-4cc3-b68e-b66b0d1ac016")
+			(uuid "84d97ba8-2d43-4c81-a975-9b436a538f0c")
 		)
 		(fp_line
 			(start -3 -3.15)
@@ -15589,7 +15916,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7985c487-da11-43ce-9184-1bfb070e3368")
+			(uuid "c45b895d-e2bc-4c3d-9820-c757a0044d30")
 		)
 		(fp_line
 			(start 3 3.15)
@@ -15599,7 +15926,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "10009b47-a363-4574-a772-3c4b5f9d0689")
+			(uuid "6a931e0a-5a90-433c-850d-68cace8eb0a1")
 		)
 		(fp_line
 			(start -3 3.15)
@@ -15609,7 +15936,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "943f7d48-4eb2-4732-98fc-dc039912393b")
+			(uuid "27acaa2d-c6d1-4a20-88d7-2d910b3afd97")
 		)
 		(fp_circle
 			(center 0 0)
@@ -15620,7 +15947,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "720f93f3-662c-4eb9-b446-6357f82fbdec")
+			(uuid "bde72b85-7360-45d7-b02f-19cdddfb4c65")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.2 90)
@@ -15649,7 +15976,7 @@
 			(net 3 "/ESP32/EN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9d5a9f51-6d9f-4120-bb7c-42e02ed39a33")
+			(uuid "a8ee5d70-e53d-4361-8471-c69ce19ecbd2")
 		)
 		(pad "2" smd rect
 			(at -4 2.25 270)
@@ -15667,10 +15994,10 @@
 			(net 2 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "144da394-ce5d-4d7b-ab19-23a474ea4406")
+			(uuid "1b020d26-3196-4b84-b3c8-c02ade6f97e6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-101xP.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15679,17 +16006,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/Project library/GoG_Library.pretty/b3fs-1010.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -15747,7 +16063,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15760,7 +16076,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15777,7 +16093,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/a9867e76-1181-4ff6-b688-16d621944907")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -16198,7 +16514,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16211,7 +16527,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16228,7 +16544,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/d1e7cf16-35ba-4514-a24f-b46f833524aa")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -16327,7 +16643,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16340,7 +16656,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16357,7 +16673,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/d55f2e45-7be2-4cca-9e22-703fb04f8360")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -17313,7 +17629,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "CL10B104KA8NNNC 100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17763,7 +18079,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-0722RL 100mW 22Ω 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17771,6 +18087,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C107701"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0571f22d-092e-47ce-839f-8ca90eee7754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e38bb548-48ca-4aa7-89bf-fa34f6581c58")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19374,7 +19716,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-07470RL 100mW 470Ω 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19382,6 +19724,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C114669"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3aee9c64-bef2-49b2-bd38-cb592be15bb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ba8e86f-8cfa-48bc-8a8c-421ac190f725")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19587,7 +19955,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19600,7 +19968,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19617,7 +19985,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/e73a11b4-f2de-4bf8-923d-48be61a2b18c")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -20222,7 +20590,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test point 1.5mm diameter"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20235,11 +20603,37 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "-"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b813494d-108f-471e-94f1-230063c088c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "-"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5aa4511-419a-48bb-baed-e22cef583709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9db73a32-37a4-4249-8656-c1ba9b3afe01/8d397fe0-911f-4a02-ba6e-6db161faa0ce")
 		(sheetname "/Lora_Module/")
 		(sheetfile "Lora_Module.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -20562,7 +20956,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CL10B105KA8NNNC 1uF 25V X7R ±10% 0603 Multilayer Ceramic Capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20570,6 +20964,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C29936"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c821455-180f-4a60-8b11-69965d3c7fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75293a2f-20e0-49d7-a9a4-44c486cab001")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20761,7 +21181,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-07470RL 100mW 470Ω 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20769,6 +21189,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C114669"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "898a70e1-59d3-422a-ad31-8e685326d2f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a0a387d-8b18-4ef2-966b-33eaa23a9caf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20964,7 +21410,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "TYPE-C16PIN USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20973,6 +21419,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C393939"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9492bf41-152b-4c53-a02a-c85115301578")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMD"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49ddcc22-9cbe-429a-8456-8e43d77406e1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21792,7 +22264,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-0722RL 100mW 22Ω 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21800,6 +22272,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C107701"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46595a9e-a5db-4397-9747-823122c06846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0a804b7-9955-43f0-91ce-2dda2c4ccc52")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21991,7 +22489,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CL10B104KA8NNNC 100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21999,6 +22497,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1590"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dd50fd3-7cfb-4a1b-be44-fd04027af3c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3666ad68-ce9f-46c7-a5ab-7c5784c771b4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23853,7 +24377,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23866,7 +24390,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23883,7 +24407,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/8dfe93d9-c0c7-4c60-ae7e-f71707f12a38")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -25764,7 +26288,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25777,7 +26301,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25794,7 +26318,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/98abb40c-5832-4656-8508-535d326c0c5d")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -25880,7 +26404,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "ZX-PZ2.54-1-2PZZ 1x2P 2.54mm Pin Header"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25888,6 +26412,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C7501260"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63cbbd4d-3d7a-423c-a176-c57bbccd6d9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "Plugin,P=2.54mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91f62186-9d6f-4d43-9707-d0cfc7ba5e90")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26147,7 +26697,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26160,7 +26710,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26177,7 +26727,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/73cf966b-637f-47a9-8cc8-b7a8093716f9")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -26501,7 +27051,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "ZX-PZ2.54-1-2PZZ 1x2P 2.54mm Pin Header"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26509,6 +27059,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C7501260"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a33c28c2-40e4-4fab-9bbd-57ef0fd1be8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "Plugin,P=2.54mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "071e7385-37f3-4ea2-abee-e83c1b52bb1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26754,7 +27330,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CL10A106MA8NRNC 10uF 25V X5R ±20% 0603 Multilayer Ceramic Capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26762,6 +27338,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C96446"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f00c57-5215-42e8-a8e8-fca5c91b53e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55bed60c-678c-4a2d-b1bf-594d7ed542c5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26953,7 +27555,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-075K1L 100mW 5.1kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26961,6 +27563,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C105580"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b85ca5f-3eaa-4493-977a-6a5058ce73d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8f636e5-d669-462a-af26-9b73f9fb63e2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27153,7 +27781,7 @@
 				)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+		(property "Description" "USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27161,6 +27789,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C7519"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c98e8ae-106e-42d1-8449-606fc44d8d8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23-6L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcf319b2-37a2-4898-bdd9-f3db64062750")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27408,7 +28062,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-075K1L 100mW 5.1kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27416,6 +28070,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C105580"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbc0524c-162d-4f17-9ad5-9b83b15eb05b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49d56789-cb03-413e-b8bb-f48cb373f782")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27832,7 +28512,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-0710KL 100mW 10kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27840,6 +28520,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C98220"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a99a11-a79d-41d8-8fb1-a3bc76447c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6ef465b-17c8-421e-8188-703e4890e6fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28283,7 +28989,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28296,7 +29002,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "-"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28313,7 +29019,7 @@
 		(path "/c7197dae-6cdc-4538-9538-27053b29fcd0/898fe136-5bae-461a-9b0e-14f89f6025ad")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
@@ -28408,6 +29114,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2934560"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4a93d3e-f93f-4fcd-ae2e-1da1f87aa082")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "LCC-18"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "731a8439-7886-43bf-9b48-ab883a49adce")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29315,7 +30047,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-0710KL 100mW 10kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -29323,6 +30055,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part #" "C98220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7fc470b-cffd-4d65-b140-6263a71d14cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1aace053-e47c-4b48-a1df-323c43013204")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29765,7 +30525,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-074K7L 100mW 4.7kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -29773,6 +30533,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part #" "C99782"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf8ef4dd-2bb8-4ea2-8533-afb3887b8230")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ca655942-6338-45f3-801d-f26a78100555")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -30215,7 +31003,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0603FR-074K7L 100mW 4.7kΩ 75V Thick Film Resistor ±1% 0603"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -30223,6 +31011,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part #" "C99782"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4dcfaa21-ee39-483f-adb1-59424bdedf4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "036e6a97-8210-4f3c-be25-9eb5e474c27d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
