@@ -5,4 +5,6 @@
   (lib (name "BQ25798RQMR")(type "KiCad")(uri "${KIPRJMOD}/Project library/ul_BQ25798RQMR/KiCADv6/2025-09-24_08-42-24.kicad_sym")(options "")(descr ""))
   (lib (name "SRP4020TA-5R6M")(type "KiCad")(uri "${KIPRJMOD}/Project library/SRP4020TA-5R6M/SRP4020TA-5R6M.kicad_sym")(options "")(descr ""))
   (lib (name "SMA-85201239")(type "KiCad")(uri "${KIPRJMOD}/Project library/SMA-85201239/85201239.kicad_sym")(options "")(descr ""))
+  (lib (name "AO3400")(type "KiCad")(uri "${KIPRJMOD}/Project library/GoG_Library.pretty/AO3400.kicad_sym")(options "")(descr ""))
+  (lib (name "AO3415")(type "KiCad")(uri "${KIPRJMOD}/Project library/GoG_Library.pretty/AO3415.kicad_sym")(options "")(descr ""))
 )

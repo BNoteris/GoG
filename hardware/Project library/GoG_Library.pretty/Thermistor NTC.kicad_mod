@@ -55,9 +55,9 @@
 	)
 	(attr through_hole)
 	(fp_arc
-		(start 0.320095 0.749359)
-		(mid -0.813042 -0.054435)
-		(end 0.417133 -0.7)
+		(start 0.373927 0.875382)
+		(mid -0.949774 -0.06359)
+		(end 0.487285 -0.817722)
 		(stroke
 			(width 0.12)
 			(type solid)

@@ -25,22 +25,22 @@
 (rule "JLCPCB: Drill Hole Size"
   # Choose between:
   # 1-2 Layers
-	(constraint hole_size (min 0.3mm) (max 6.3mm))
+	# (constraint hole_size (min 0.3mm) (max 6.3mm))
   # 4-6 Layers (more costly)
 	# (constraint hole_size (min 0.15mm) (max 6.3mm))
   # 4-6 Layers (preferred)
-	# (constraint hole_size (min 0.2mm) (max 6.3mm))
+	(constraint hole_size (min 0.2mm) (max 6.3mm))
 )
 
 (rule "JLCPCB: Via Hole Size"
 	(condition "A.Type == 'Via'")
   # Choose between:
   # 1-2 Layers
-	(constraint hole_size (min 0.3mm))
+	# (constraint hole_size (min 0.3mm))
   # 4-6 Layers (more costly)
     # (constraint hole_size (min 0.15mm))
   # 4-6 Layers (preferred)
-	# (constraint hole_size (min 0.2mm))
+	(constraint hole_size (min 0.2mm))
 )
 
 (rule "JLCPCB: Via Annular Ring"
@@ -141,7 +141,7 @@
 
 (rule "JLCPCB: NPTH to Trace"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && B.Type == 'Track'")
-	(constraint hole_clearance (min 0.254mm))
+	(constraint hole_clearance (min 0.2mm))
 )
 
 (rule "JLCPCB: Pad to Trace"
