@@ -9,6 +9,9 @@
 #include <Wire.h>
 
 //define the pins used by the transceiver module
+#define sck 7 // GPIO7 on ESP32
+#define miso 6 // GPIO6 on ESP32
+#define mosi 5 // GPIO5 on ESP32
 #define ss 4 // GPIO4 on ESP32
 #define rst 8 // GPIO8 on ESP32
 #define dio0 10 // GPIO10 on ESP32
@@ -18,9 +21,11 @@ int counter = 0;
 void setup() {
   //initialize Serial Monitor
   Serial.begin(115200);
-  Wire.begin();
-  // while (!Serial);
+  while (!Serial);
+
   Serial.println("LoRa Sender");
+
+  SPI.begin(sck, miso, mosi, ss);
 
   //setup LoRa transceiver module
   LoRa.setPins(ss, rst, dio0);
