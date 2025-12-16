@@ -57,5 +57,5 @@ void loop() {
 
   counter++;
 
-  delay(10000);
+  delay(5000);
 }
